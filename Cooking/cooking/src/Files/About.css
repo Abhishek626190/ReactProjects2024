@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 250px;
+
+}
+.photo
+{
+    height: 300px;
+    width: 50%;
+    margin-left: 150px;
+}
+.photo img{
+    height: 500px;
+    width: 400px;
+    border-radius:80%;
+
+}
+.content
+{
+    height: 300px;
+    width: 50%;
+    line-height: 30px;
+    margin-top: 80px;
+}
+.content p{
+    word-wrap: break-word;
+    width: 60%;
+}
+.content h2{
+    word-wrap: break-word;
+    width: 65%;
+}
+.content button
+{
+    border-radius: 25px;
+    background-color: rgb(16, 214, 16);
+    margin-top: 5px;
+}

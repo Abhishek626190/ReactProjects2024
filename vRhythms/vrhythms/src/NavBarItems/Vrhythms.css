@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    /* border: 2px solid rebeccapurple; */
+    /* background-color: aquamarine; */
+    height: 530px;
+    width: 630px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: rgb(93, 98, 102);
+    
+}
+
+.para
+{
+    font-size: 20px;
+    line-height: 35px;
+    word-break: normal;
+}
+.para1
+{
+    font-size: 20px;
+    line-height: 35px;
+    word-break: normal;
+    margin-top: 30px;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: aqua;
+   }
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+
+  }
+  .navbar li:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+     
+  }
+  .navbar a:hover {
+    /* background-color: aquamarine; */
+    color: black;
+    /* font-size: 20px; */
+  }
+  .vRhythms
+  {
+    font-size: 25px;
+    font-weight: 900;
+    
+}

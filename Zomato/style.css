@@ -1,0 +1,531 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 700px;
+  /* background-color: aqua; */
+  background-image: url("FoodContainer.jpg");
+  opacity:0.9;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container li {
+  list-style-type: none;
+  display: inline;
+}
+.container a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.left {
+  margin-left: 50px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.right select {
+  border: none;
+  /* height: 30px; */
+  font-size: 30px;
+  margin-left: 0px;
+  text-align: center;
+
+  background-color: transparent;
+}
+.right {
+  float: right;
+  margin-right: 80px;
+  padding-top: 20px;
+}
+.right option {
+  font-size: 30px;
+}
+.right li {
+  margin-right: 30px;
+}
+
+.zomato {
+  text-align: center;
+  height: 100px;
+  margin-top: 70px;
+}
+.zomato h1 {
+  font-size: 150px;
+  color: white;
+  font-family: cursive;
+}
+.title {
+  text-align: center;
+  height: 100px;
+  margin-top: 100px;
+}
+.title h3 {
+  font-size: 70px;
+  color: white;
+  font-family: cursive;
+}
+
+.search {
+  background-color: white;
+  height: 100px;
+  width: 60%;
+  margin-left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.location {
+  /* background-color: blue; */
+  height: 70px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.hotels {
+  /* background-color:red; */
+  height: 70px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.location input {
+  height: 60px;
+  width: 70%;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+}
+
+.location select {
+  /* height: 60px; */
+  width: 4%;
+  border: none;
+  max-height: 20px;
+}
+.location option {
+  font-size: 20px;
+}
+.hotels input {
+  height: 60px;
+  width: 90%;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+}
+
+/* ********************** */
+
+.cardcontainer {
+  height: 500px;
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.card {
+  height: 410px;
+  /* background-color: brown; */
+  width: 25%;
+  margin-left: 56px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px solid red;
+  border-color: aliceblue;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s ease;
+}
+
+.imgs img {
+  height: 250px;
+  width: 100%;
+}
+.content {
+  height: 150px;
+  background-color: whitesmoke;
+}
+.content h2 {
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.content p {
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+/* ****************************** */
+.collection {
+  height: 800px;
+  /* background-color: aqua; */
+}
+.text {
+  padding-top: 50px;
+  margin-left: 230px;
+}
+
+.text h1 {
+  font-size: 50px;
+}
+.text h6 {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.collection-hotel {
+  height: 600px;
+  /* background-color: blueviolet; */
+  display: flex;
+}
+
+.restaurant1 {
+  /* height: 500px;
+  width: 18%;
+  background-color: burlywood;
+  margin-left: 40px;
+  margin-top: 50px; */
+  background-image: url("Res1.jpg");
+  /* background-repeat: no-repeat;
+  background-position: 20%;
+  background-size: cover; */
+}
+
+.restaurant2 {
+  /* height: 500px;
+  width: 18%;
+  background-color: burlywood;
+  margin-left: 40px;
+  margin-top: 50px; */
+  background-image: url("Res2.jpg");
+  /* background-repeat: no-repeat;
+  background-position: 20%;
+  background-size: cover; */
+}
+.restaurant3 {
+  /* height: 500px;
+  width: 18%;
+  background-color: burlywood;
+  margin-left: 40px;
+  margin-top: 50px; */
+  background-image: url("Res3.jpg");
+  /* background-repeat: no-repeat;
+  background-position: 20%;
+  background-size: cover; */
+}
+.restaurant4 {
+  background-image: url("Res4.jpg");
+}
+
+.restaurant {
+  height: 500px;
+  width: 18%;
+  /* background-color: burlywood; */
+  margin-left: 40px;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-position: 20%;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.restaurant:hover {
+  transform: scale(1.1);
+  transition: transform 0.7s ease-in-out;
+}
+
+.restext {
+  color: white;
+  font-size: 30px;
+  margin-top: 430px;
+  margin-left: 40px;
+}
+
+.restext a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* **************************** */
+ .places
+{
+     height: 700px;
+}
+
+.head
+{
+     padding: 60px;
+    margin-left: 200px;
+    font-size: 45px;
+}
+
+.maincity
+{
+    height: 490px;
+    width: 80%;
+    margin-left: 200px;
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.city
+{
+    height: 100px;
+    width: 30%;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    font-size: 30px;
+ }
+ 
+.city p,a{
+        margin-left: 20px;
+        margin-top: 10px;
+    text-decoration: none;
+    /* line-height: 38x; */
+  } 
+
+
+.app
+{
+    height: 600px;
+    background-color:rgb(248, 209, 209);
+     
+    /* display: flex; */
+    /*justify-content: center;*/
+} 
+
+.about-app
+{
+    height: 500px;
+    width: 40%;
+    float: right;
+    margin-right: 300px;
+    /* background-color:aqua; */
+    text-align: center;
+    line-height: 60px;
+    margin-top: 40px;
+ }
+.about-app h1{
+    font-size:60px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type=radio] {
+    transform: scale(2.0); /* Increase the size */
+  }
+
+label{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+ .share-link a
+ {
+    
+    font-size: 30px;
+    padding: 10px;
+    background-color:crimson;
+    color: white;
+ }
+ .share-link{
+    margin-left: 110px;
+ }
+
+ .share-app a
+ {
+    
+    font-size: 20px;
+    padding: 10px;
+    background-color:crimson;
+    color: white;
+      
+ }
+
+ .options
+ {
+  height: 850px;
+  background-color:white;
+ }
+.explore
+{
+  padding: 60px;
+  margin-left: 250px;
+  font-size: 25px;
+ }
+ .option1
+ {
+  background-color: whitesmoke;
+  height: 120px;
+  width: 70%;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 15px;
+ }
+ .option1 p{
+  font-size: 35px;
+  padding: 28px;
+  display: inline-block;
+ }
+ .option1 a{
+  float: right;
+  margin-right: 100px;
+  /* margin-top: 0px; */
+ }
+
+ /* ********************footer***** */
+ .footer
+ {
+  height: 700px;
+  background-color: whitesmoke;
+ }
+
+ .z p{
+  padding: 80px;
+  margin-left: 210px;
+  font-size: 50px;
+  font-weight: 900;
+  display: inline-block;
+  }
+  .z a
+  {
+    font-size: 30px;
+    color: black;
+    float: inline-end;  
+    margin-top: 90px;
+    margin-right: 50px;
+    border: 2px solid black;
+    width: 8%;
+    padding: 10px;
+  
+  }
+  .mainabout
+  {
+    /* background-color: aquamarine; */
+    display: flex;
+  }
+
+  .about
+  {
+    margin-left: 180px;
+    display: inline-block;
+    /* background-color: aqua; */
+   }
+  .about p{
+    font-size: 25px;
+  }
+  .about li{
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 23px;
+   }
+   .about li a{
+    color: black;
+   }
+  .about a i{
+     font-size: 28px;
+  }
+  hr{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 280px;
+  }
+  .end
+  {
+   margin-left: 280px;
+   padding: 20px;
+
+  }
+  .end p{
+    font-size: 20px;
+  }
+  /* ********Responsive************ */
+  /* Add this CSS at the end of your existing styles */
+
+/* For screens smaller than 768px (tablets and smaller devices) */
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    background-size: cover;
+  }
+  .search {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .location,
+  .hotels {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .location input,
+  .location select,
+  .hotels input {
+    width: 70%;
+  }
+  .cardcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .title h3 {
+    font-size: 40px;
+  }
+  .text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 40px;
+  }
+  .maincity {
+    margin-left: 0;
+  }
+  .city {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .option1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* For screens smaller than 576px (phones) */
+@media screen and (max-width: 576px) {
+  .text h1 {
+    font-size: 30px;
+  }
+  .text h6 {
+    font-size: 16px;
+  }
+  .option1 p {
+    font-size: 20px;
+  }
+  .option1 a {
+    margin-right: 10px;
+  }
+  .option1 {
+    margin-left: 0;
+  }
+  .location input,
+  .location select,
+  .hotels input {
+    width: 60%;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px;
+  height:200px;
+}
+.footer p{
+    margin-top: 10px;
+}
+hr{
+    color: red;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 30px;
+}
