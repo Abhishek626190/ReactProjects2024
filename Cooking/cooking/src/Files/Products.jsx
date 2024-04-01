@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import Font
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Utensil2 from "../Images/Utensil2.png";
-import { items } from "./Data";
+import { items } from "./ProductData";
 
 export default function Products() {
   let item = items.map((v, i) => {

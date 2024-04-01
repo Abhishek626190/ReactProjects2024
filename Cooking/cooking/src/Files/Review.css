@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.review {
+  text-align: center;
+  margin-top: 50px;
+   
+}
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.customer {
+  display: flex;
+  /* background-color: aquamarine; */
+  width:50%;
+  /* margin-right: 50px; */
+  margin-top: 40px;
+  margin-bottom: 30PX;
+
+}
+.photos {
+  /* background-color: rgb(119, 255, 0); */
+  width: 40%;
+  margin-right: 50px;
+}
+.photos img {
+  height: 150px;
+  width: 50%;
+  float: right;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.text {
+  margin-top: 15px;
+  /* background-color: aqua; */
+  width: 40%;
+}
+.text h5{
+    margin-top: 10px;
+}
+
+ 

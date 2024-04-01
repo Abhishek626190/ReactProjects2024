@@ -55,7 +55,7 @@ export default function Footer() {
       <hr />
 
       <div className="last">
-        <p>@smartcookers.com 2020 | All rights reserved</p>
+        <p>@smartcookers.com 2024 | All rights reserved</p>
       </div>
     </>
   );
